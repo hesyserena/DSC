@@ -1,0 +1,20 @@
+Package: DSC
+Title: DSC - Distributional Synthetic Controls
+Version: 1.0.0
+Authors@R: 
+    person(given = "Florian",
+           family = "Gunsilius",
+           role = "aut",
+           email = "ffg@umich.edu")
+    person(given = "Siyun",
+           family = "He",
+           role = "cre",
+           email = "siyunhe@umich.edu")
+Description: DSC package: Implementation of the Distributional Synthetic Controls estimator (Gunsilius 2021). Computes weights, barycenters, confidence intervals, and permutation tests.
+Depends: R (>= 4.0.2)
+Imports: CVXR (>= 1.0.9)
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
